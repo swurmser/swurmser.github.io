@@ -3,7 +3,12 @@ body {
   margin: 0;
   background: #f2f6e9;
 }
-
+.header {
+  background-image: url('150_arizona_sunset_062305_12.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 /*--- navigation bar ---*/
 
 .navbar {
@@ -27,9 +32,4 @@ body {
 .navbar-collapse {
   justify-content: flex-end;
 }
-.header {
-  background-image: url('150_arizona_sunset_062305_12.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
+
